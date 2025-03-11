@@ -1,0 +1,22 @@
+sort1 uses: bubble sort
+
+How do you know?:
+on reversed 50000 list, sort 1 took 0m4.993s
+on sorted 50000 list , sort 1 took 0m0.515s
+
+its bubble sort as when it sorted it took significantly shorter time as compared to reversed/unsorted list, as it will quit the program if its already sorted thus significantly faster. but for the worst case scenario will still be slower than merge sort as its N^2 for big O
+sort2 uses: merge sort
+
+How do you know?:
+on the reversed 50000 list, sort 2 took 0m0.473s
+on sorted 50000 list, sort 2 took 0m0.481s
+
+for merge sort, it recursively divides the list into two repeatedly and merge the smaller list back into a larger one in the correct ouput, its best and worst case scenario should take similar time as even if its sorted or reversed it will still continue to merge sort and not quit and it should take shortest time as its NlogN compared N^2 and N
+
+sort3 uses: Selection sort
+
+How do you know?:
+on reversed 50000 list, sort 3 took 0m2.507s
+on sorted 50000 list, sort 3 took 0m2.486s
+
+and for selection sort, it iterates through unsorted/sorted portions of a list and moving to the correct location even if the list is already sorted so it will take longer and similar in time for sorted and reversed

@@ -1,0 +1,11 @@
+SELECT AVG(energy) FROM songs to get the average energy value from their top 100 songs
+SELECT AVG(valence) FROM songs to get the average valence value from their top 100 songs
+SELECT AVG(danceability) FROM songs to get the average danceability value from their top 100 songs
+
+Then with these values if for example energy more than a certain value, can characterise as energetic aura
+vice versa for valence and danceability, using a criteria to characterise the aura.
+
+It might not be fully representative of the listener as it is only using their top 100 most listened songs,
+the 101th and beyond songs are not indicative, there is also no weightage. I suggest giving each song a weightage depending on their ranking
+in their most listened songs, where the most listened songs will have the most weightage in its energy,
+valence, and danceabilty to accurately represent the listeners actual audio aura.
