@@ -1,0 +1,155 @@
+/* Colour scheme
+Text: #0A192F
+Nav Bar: #0A192F
+Nav items: #F8F9FA
+Nav hover: #64FFDA
+Brand: #64FFDA
+Background color: #F0F4F8
+ */
+* {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #0A192F;
+    display: flex;
+    width: 100%;
+}
+nav ul {
+    width: 100% !important;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px !important;
+}
+
+nav a {
+    height: 100% !important;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    color: #F8F9FA !important;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/*
+.nav-link {
+    padding: 15px 20px;
+    background-color: #F8F9FA !important;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #0A192F;
+    justify-content: right;
+    display: flex;
+    width: 100%;
+} */
+.nav-link:hover {
+    background-color: #64FFDA !important;
+    color: #0A192F !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #64FFDA !important;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main {
+    background: url("assets/Photo.jpg") no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-position: right;
+}
+
+#intro {
+    font-size: 5rem;
+}
+
+.homeB {
+    height: 65px;
+    width: 138px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-color: black;
+    border-style: solid;
+    top: 50px;
+}
+
+.homeB:hover{
+    background-color: #64FFDA;
+    transition: all 0.3s ease;
+}
+
+.contactB {
+    height: 45px;
+    width: 110px;
+    border-radius: 12px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-color: black;
+    border-style: solid;
+    top: 5px;
+}
+.contactB:hover{
+    background-color: #64FFDA;
+    transition: all 0.3s ease;
+}
+.contactPage {
+    padding-top: 6rem;
+    border-color: black;
+    padding-left: 1rem;
+}
+
+ul {
+    padding-left: 4px;
+}
+.about-text {
+    padding-top: 4.5rem;
+    background-color: #F0F4F8 !important;
+}
+ body {
+    background-color: #F0F4F8 !important;
+    color: #0A192F;
+ }
+
+.about-title {
+    text-decoration: underline;
+}
+
+.projectSection {
+    padding-top: 5rem;
+    display: flex;
+}
+
+#contactText {
+    color: green;
+    position: relative;
+    top: 5px;
+}
