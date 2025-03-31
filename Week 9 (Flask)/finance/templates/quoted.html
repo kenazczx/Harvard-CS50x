@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted {{ quote_stock }}
+{% endblock %}
+
+{% block main %}
+    <div class="mb-3">
+        <table class="table">
+            <tr>
+                <th scope="col">Stock</th>
+                <th scope="col">Price</th>
+            </tr>
+            <tr>
+                <td>
+                    {{ stock_name }} ({{ quote_stock }})
+                </td>
+                <td>
+                    {{ stock_price }}
+                </td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
